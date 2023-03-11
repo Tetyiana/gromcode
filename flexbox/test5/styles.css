@@ -2,11 +2,6 @@ header {
   display: flex;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 h1 {
   margin: auto;
