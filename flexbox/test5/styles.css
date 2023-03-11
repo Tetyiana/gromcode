@@ -1,10 +1,6 @@
-header {
+.header {
   display: flex;
-}
-
-
-h1 {
-  margin: auto;
+  justify-content: center;
 }
 
 .articles-list {
@@ -18,4 +14,5 @@ h1 {
   background-color: bisque;
   flex-basis: 300px;
   flex-grow: 1;
+  box-sizing: border-box;
 }
