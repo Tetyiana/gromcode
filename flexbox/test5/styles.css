@@ -1,7 +1,8 @@
-.header {
+header {
   display: flex;
   justify-content: center;
 }
+
 
 .articles-list {
   display: flex;
