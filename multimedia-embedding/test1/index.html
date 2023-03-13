@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .image-container {
+      display: flex;
+
+    }
+
+    .main-image {
+      margin: 50px auto;
+      max-width: 100%;
+      border-radius: 20px;
+
+    }
+
+    .gallery {
+      display: flex;
+    }
+
+    .caption {
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+
+    }
+
+    .card {
+      margin: 16px;
+      box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+    }
+
+    .opasity-filter {
+      filter: opacity(50%);
+    }
+
+    .blur-filter {
+      filter: blur(4px);
+    }
+
+    .invert-filter {
+      filter: invert(100%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-container">
+    <img class="main-image"
+      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="tree">
+  </div>
+  <div class="gallery">
+    <figure class="card">
+      <img class="opasity-filter"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        alt="opasity-filter">
+      <figcaption class="caption">opasity</figcaption>
+    </figure>
+    <figure class="card">
+      <img class="blur-filter"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        alt="blur-filter">
+      <figcaption class="caption">blur</figcaption>
+    </figure>
+    <figure class="card">
+      <img class="invert-filter"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        alt="invert-filter">
+      <figcaption class="caption">invert</figcaption>
+    </figure>
+  </div>
+
+</body>
+
+</html>
